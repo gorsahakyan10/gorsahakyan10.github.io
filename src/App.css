@@ -1,38 +1,169 @@
-.App {
-  text-align: center;
+:root {
+  --generalColorBlack: rgba(0, 0, 0, 0.898);
+  --generalFontFamily: sans-serif;
+  --generalColorDarkYellow:rgba(246, 197, 105, 0.844);
+  --generalColorWhite:white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*::selection {
+   background: var(--generalColorBlack);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  overflow-x: hidden;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+a,h1,h2,h3,h4,span,p,div,article,aside,nav,footer,ul,li,button {
+   font-family: var(--generalFontFamily);
+   display: block;
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+a,h1,h2,h3,h4,span,p {
+  letter-spacing: 1px;
+  word-spacing: 5px;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: var(--generalColorWhite);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
+  padding: 2vh 0;
+  width: 100vw;
+  height: auto;
+  background: var(--generalColorBlack);
+}
+
+.Header_Logo {
+     background-image: url('https://scontent.fevn12-1.fna.fbcdn.net/v/t1.6435-9/185119948_104324975171180_7413968250565836207_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Vz9XqJVbOQ0AX_n4muE&_nc_ht=scontent.fevn12-1.fna&oh=00_AfA-LtHer0VcpzsyncYEDsdmcuZ0VjxkNHvVfq2j0KQ0Mg&oe=63F5F83B'); 
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: 10vw;
+     height: 20vh;
+}
+
+.Header_Links {
+   display: flex;
+   width: auto;
+   height: auto; 
+}
+
+.Header_Links a {
+  margin-left: 2vw;
+  font-family: var(--generalFontFamily);
+}
+
+.Contacts {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  flex-direction: column;
+  min-width: 20vw;
+  height: auto;
 }
 
-.App-link {
-  color: #61dafb;
+.Social_Networks  {
+  display: flex;
+  align-items: center;
+  width: inherit;
+  height: inherit;
 }
 
-@keyframes App-logo-spin {
+.Social_Networks img {
+    width: 2vw;
+    height: 4vh;
+}
+
+.Social_Networks a {
+  margin-left: 30px;
+}
+
+.Phone {
+  font-weight: 900;
+  font-size: 30px;
+  margin-top: 3vh;
+  color: var(--generalColorWhite);
+  animation: phoneAnimation 1s infinite;
+}
+
+aside {
+   flex-grow: 1;
+   height: 90vh;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+
+.Aside_Left {
+    background-image: url('https://images.unsplash.com/photo-1624855600799-ac8e8bddd1da?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZmFzdGZvb2R8ZW58MHx8MHx8&w=1000&q=80');
+}
+
+.Aside_Right {
+   background-image: url('https://images.unsplash.com/photo-1624855600799-ac8e8bddd1da?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZmFzdGZvb2R8ZW58MHx8MHx8&w=1000&q=80');
+}
+
+main {
+  flex-grow: 2;
+  height: 90vh;
+  background: var(--generalColorDarkYellow);
+}
+
+.Content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 100vw;
+  height: auto;
+  padding: 20px 0;
+  background: var(--generalColorBlack);
+}
+
+footer span {
+  position: relative;
+  animation: ticker 5s infinite;
+  font-weight: 900;
+  font-family: sans-serif;
+   font-size: 100px;
+   color: var(--generalColorDarkYellow);
+}
+
+.active {
+  color:var(--generalColorDarkYellow);
+}
+
+
+@keyframes ticker {
+   from {
+      left: 100vw; 
+   }
+   to {
+      left: 0vw;
+   }
+}
+
+@keyframes phoneAnimation {
   from {
-    transform: rotate(0deg);
+     color: var(--generalColorWhite);
   }
   to {
-    transform: rotate(360deg);
+     color: var(--generalColorDarkYellow);
   }
 }
+
