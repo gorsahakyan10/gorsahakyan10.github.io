@@ -8,16 +8,14 @@ export const GeneralPageLayout = () => {
   return (
     <div className='App'>
         <header>
-            <div className="Header_Logo"></div>
+            <NavLink to={'/'}><div className="Header_Logo"></div></NavLink>
             <div className="Header_Links">
-                <NavLink to="/">ԳԼԽԱՎՈՐ</NavLink>
+                <NavLink to="/">ՄԵՆՅՈՒ</NavLink>
                 <NavLink to="about-us">ՄԵՐ ՄԱՍԻՆ</NavLink>
-                <NavLink to="menu">ՄԵՆՅՈՒ</NavLink>
-                <NavLink to="delivery">ԱՌԱՔՈՒՄ</NavLink>
-                <NavLink to="contacts">ԿԱՊ</NavLink>
             </div>
             <div className="Contacts">
                 <div className="Phone">
+                    <span className='Delivery'>ՊԱՏՎԻՐԵՔ</span>
                     <span>(055)-55-06-65</span>
                 </div>
             </div>
@@ -27,7 +25,19 @@ export const GeneralPageLayout = () => {
                 <main><Outlet/></main>
             <aside className='Aside_Right'></aside>
             <footer>
-                <span>{'☚'}BINGO BISTRO</span>
+                <div className="Contacts">
+                    <div className="Social_Networks">
+                        <a href="https://www.instagram.com/ping_wen_chen/">
+                            <img src="https://i.pinimg.com/736x/4e/f8/5a/4ef85aede61a7fa1f9c884e9b06e5ac6.jpg" alt="Instagram" /> 
+                        </a>
+                        <a href="https://www.facebook.com/Bingo-Bistro-Gyumri-104286111841733">
+                            <img src="https://i.pinimg.com/564x/5a/41/07/5a41070fd123e5f706aae22cca82dc39.jpg" alt="Facebook" />
+                        </a>
+                    </div>
+                </div>
+                <div className='BingoBistroAnimate'>
+                    <span>{'☚'}BINGO BISTRO</span>
+                </div>
             </footer>
         </div>
     </div>
