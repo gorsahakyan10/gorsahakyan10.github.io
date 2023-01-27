@@ -8,7 +8,7 @@ export const Home = () => {
                 <Food src={'https://scontent.fevn12-1.fna.fbcdn.net/v/t1.6435-9/193348679_116522830618061_8015662627002023305_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=780v0lQT57sAX8-Lb75&_nc_ht=scontent.fevn12-1.fna&oh=00_AfBkSSndnnHtxAHoYdxWxRBbRdQzFBckEIGl-tWDvQT3jw&oe=63F65583'}
                  alt={'Kebab'} foodName={'Քյաբաբ'} price={'400֏'}
                 />
-                <Food src={'https://scontent.fevn12-1.fna.fbcdn.net/v/t39.30808-6/247352786_197632189173791_1263014607298261705_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=NeDPS-r_xFIAX_d-FcH&_nc_ht=scontent.fevn12-1.fna&oh=00_AfCxT_3oQeVX9RU0WS5xbGlduZhxPy4t9XvFBvH3B7lMIQ&oe=63D30850'}
+                <Food src={'https://scontent.fevn12-1.fna.fbcdn.net/v/t39.30808-6/247352786_197632189173791_1263014607298261705_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=IJvjal5JAbEAX-SWT6s&_nc_ht=scontent.fevn12-1.fna&oh=00_AfDCleo2pfo40NGCwu5OuN6cubuWdJHiqVTBwshPr3Hrvg&oe=63D8F710'}
                 alt={'Tolma'} foodName={'Կաղամբով Տոլմա'} price={'1000֏'}
                 />
                 <Food src={'https://scontent.fevn12-1.fna.fbcdn.net/v/t39.30808-6/252162291_205531901717153_7089937854148515070_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=rkV2V-9eYQQAX-2CjlD&_nc_ht=scontent.fevn12-1.fna&oh=00_AfA0Iqcd2IaLCFu0pHyawdmZWyWW_0Im_P20CBfqI7xjSQ&oe=63D419E7'}
@@ -30,6 +30,21 @@ export const Home = () => {
                 <Food src={'https://scontent.fevn12-1.fna.fbcdn.net/v/t1.6435-9/186555085_107775008159510_1037069158926134484_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=SbggUJ_Mb-gAX_EBFYo&_nc_ht=scontent.fevn12-1.fna&oh=00_AfA9tubqWJWDi8XZbq-sSiCA_hOMwVwNe_w8MIvGmthdkw&oe=63F65D9B'}
                 alt={'Khorovac'} foodName={'Խոզի Խորոված + կարտոֆիլ'}
                 price={'3200֏'}    
+                />
+                <Food src={'https://scontent.fevn12-1.fna.fbcdn.net/v/t39.30808-6/252162291_205531901717153_7089937854148515070_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=rkV2V-9eYQQAX-2CjlD&_nc_ht=scontent.fevn12-1.fna&oh=00_AfA0Iqcd2IaLCFu0pHyawdmZWyWW_0Im_P20CBfqI7xjSQ&oe=63D419E7'}
+                alt={'Burger'} foodName={'Բուրգեր'} price={'600֏'}   
+                />
+                <Food src={'https://scontent.fevn12-1.fna.fbcdn.net/v/t39.30808-6/252162291_205531901717153_7089937854148515070_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=rkV2V-9eYQQAX-2CjlD&_nc_ht=scontent.fevn12-1.fna&oh=00_AfA0Iqcd2IaLCFu0pHyawdmZWyWW_0Im_P20CBfqI7xjSQ&oe=63D419E7'}
+                alt={'Burger'} foodName={'Բուրգեր'} price={'600֏'}   
+                />
+                <Food src={'https://scontent.fevn12-1.fna.fbcdn.net/v/t39.30808-6/252162291_205531901717153_7089937854148515070_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=rkV2V-9eYQQAX-2CjlD&_nc_ht=scontent.fevn12-1.fna&oh=00_AfA0Iqcd2IaLCFu0pHyawdmZWyWW_0Im_P20CBfqI7xjSQ&oe=63D419E7'}
+                alt={'Burger'} foodName={'Բուրգեր'} price={'600֏'}   
+                />
+                <Food src={'https://scontent.fevn12-1.fna.fbcdn.net/v/t39.30808-6/252162291_205531901717153_7089937854148515070_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=rkV2V-9eYQQAX-2CjlD&_nc_ht=scontent.fevn12-1.fna&oh=00_AfA0Iqcd2IaLCFu0pHyawdmZWyWW_0Im_P20CBfqI7xjSQ&oe=63D419E7'}
+                alt={'Burger'} foodName={'Բուրգեր'} price={'600֏'}   
+                />
+                <Food src={'https://scontent.fevn12-1.fna.fbcdn.net/v/t39.30808-6/252162291_205531901717153_7089937854148515070_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=rkV2V-9eYQQAX-2CjlD&_nc_ht=scontent.fevn12-1.fna&oh=00_AfA0Iqcd2IaLCFu0pHyawdmZWyWW_0Im_P20CBfqI7xjSQ&oe=63D419E7'}
+                alt={'Burger'} foodName={'Բուրգեր'} price={'600֏'}   
                 />                
             </div>
         </>

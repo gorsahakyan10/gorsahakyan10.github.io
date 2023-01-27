@@ -36,7 +36,7 @@ export const GeneralPageLayout = () => {
                     </div>
                 </div>
                 <div className='BingoBistroAnimate'>
-                    <span>{'☚'}BINGO BISTRO</span>
+                    <span>{'◄'}BINGO BISTRO</span>
                 </div>
             </footer>
         </div>
